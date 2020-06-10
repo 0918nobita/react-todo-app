@@ -23,6 +23,7 @@ module.exports = {
     },
     devServer: {
         contentBase: distDir,
+        historyApiFallback: true,
         port: 3000,
     },
 };
